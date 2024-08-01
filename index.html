@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="start.css">
+    <script src="https://kit.fontawesome.com/2e152d0c36.js" crossorigin="anonymous"></script>
+    <title>my portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="garimalogo.jpg"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontent Developer</p>
+                <h2>Hi my self<span> garima singh</span></br>from india</h2>
+            </div>
+        </div>
+    </div>
+    <!-- .....................about......................... -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myimage.jpg"  height="400px" width="300px">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="subtitle">About me</h2>
+                    <p>hey! my self garima singh currently i'm final year student of batchelor of computer application.<br/>
+                        I am a passionate web developer with a strong background in creating dynamic and user-friendly websites.</p></br>
+                     <p>   My goal is to contribute to impactful projects that make a <br/>
+                        difference while growing as a professional in the tech industry.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Basic</span><br/>C/C++/Datastructure/HTML/CSS</li>
+                            <li><span>Framework</span><br/>JavaScript/TypeScript/React.js</li>
+                            <li><span>Design</span><br/>Figma/Photoshop</li>
+                            <li><span>Extra</span><br/>GIT/GITHUB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Major project</span><br/>Education Website</li>
+                            <li><span>lakme-clone</span><br/>singhgarima16.github.io/lakme-file/ </li>
+                            <li><span>netflix-clone</span><br/>singhgarima16.github.io/netflixclone/</li>
+                            <li><span>..</span><br/>..</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>High school</span><br/>St.Aerjay Public School(BSR)</li>
+                            <li><span>Intermideate</span><br/>St.Aerjay Public School(BSR)</li>
+                            <li><span>Bachelor(Bachelor of Computer Application)</span><br/>CCS Unniversity(Meerut)</li>
+                            <li><span>..</span><br/>..</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------services---------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h2 class="subtitle">my Services</h2>
+           <div class="Services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontent work</h2>
+            <p> I am a passionate web developer with a strong background in creating dynamic and user-friendly websites.
+                  My goal is to contribute to impactful projects that make a 
+                  difference while growing as a professional in the tech industry.
+            </p>
+                 <a href="#">learn more</a>
+           </div>
+           <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>Designing</h2>
+            <p> As an (Artist) i love to create someting different because i am so creative persone (frontent developer)
+                By staying current with design trends and conducting user research,
+                 I continuously refine my designs to meet the needs of our users.   </p>
+                 <a href="#">learn more</a>
+           </div>
+           <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Data Analysis</h2>
+            <p> As a data analyst,
+                currently I'm learning this function but after some time i give u the best results. </p>
+                 <a href="#">learn more</a>
+           </div>
+           </div>
+
+        </div>
+    </div>
+    <!-- --------------------------portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="subtitle">my work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="img6.jpg">
+                <div class="layer">
+                    <h3>Education Website</h3>
+                    <p> Education website basicaly my (Major project) which gives u a knowledge in programing language 
+                        which help to enhence Your coding pratice and skills and provide the hand written notes. 
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img2.webp" >
+                <div class="layer">
+                    <h3>lakme-clone</h3>
+                    <p> lakme-clone are basicaly my practice website which is buld on HTML and CSS only .
+                        <a href="https://singhgarima16.github.io/lakme-file/"><i class="fa-solid fa-link"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img4.webp">
+                <div class="layer">
+                    <h3>Artistic Website</h3>
+                    <p> artistic website was my first  client website .
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-- -------------------------contact----------------------- -->
+<div id="contact">
+    <div class="containe">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="subtitle">contact</h2>
+                <p><i class="fa-solid fa-envelope"></i>garimasinghbsr16@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7505364828</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/aaradhyata__?igsh=MXZrM21ucGgzOXJieQ== "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/garima-singh-94869b2a9/ "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/singhgarima16 "><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href=" "><i class="fa-solid fa-phone"></i></a> -->
+                </div>
+                <a href="cv" download class="btn btn2">Downlode CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Garima . made with <i class="fa-solid fa-heart"></i> by portfolio</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- -----------------------script------------------------ -->
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    document.getElementById(tabname).classList.add("active-tab");
+    event.currentTarget.classList.add("active-link");
+}
+
+</script>
+
+<script>
+    var menubar = document.getElementById("sidemenu");
+    function openmenu(){
+        menubar.style.right="0";
+    }
+    function closemenu(){
+        menubar.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx_c8VrjbI1N32IVxspn2v464UG7ePCsbXxo7zYH3vmm4wjAaM-DOLTynVWq_5tpVNrAA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(response => {
+        msg.innerHTML ="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = " "
+        },5000)
+        form.reset()
+    })
+     .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
